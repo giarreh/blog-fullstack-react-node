@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
 .blog-post{
   align-items: center;
   justify-content: center;
@@ -5,30 +12,48 @@
   border: 2px solid #000;
   padding: 1rem;
   margin: 1rem;
-
 }
 .navbar-container {
   display: flex;
-  justify-content: space-between; /* This will push "Login" to the far right */
+  justify-content: space-between;
+  background-color: #444;
+  padding-bottom: 0.5rem;
+  font-size: large;
 }
-
+.navbar-container ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
 .navbar {
   margin-left: 1rem; /* This will give a little space between the left edge of the screen and the "Home" link */
   padding: 0.5rem;
   border: 2px solid #000;
   border-radius: 5px;
-  font-size: large;
+  margin-top: 0.25rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .navbar:hover{
-  background-color: #000;
-  color: #fff;
+  background-color: #777;
   cursor: pointer;
 }
 
+
 .login {
-  margin-left: auto; /* Pushes "Login" to the far right by taking up all available space */
-  border: 2px solid #000;
+  margin-left: auto;
   padding: 0.5rem;
   margin-right: 1rem;
 }
