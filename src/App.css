@@ -5,6 +5,12 @@
 body {
   margin: 0;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 .blog-post{
   align-items: center;
   justify-content: center;
@@ -56,4 +62,13 @@ body {
   margin-left: auto;
   padding: 0.5rem;
   margin-right: 1rem;
+}
+.button {
+  background-color: #444;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
 }

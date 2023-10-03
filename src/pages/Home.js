@@ -1,11 +1,15 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import Blog from '../components/blog';
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-            <p>Home page body content</p>
+        <>
+        <div className='container'>          
+        <Link className='button' to="/create">Create a new Blog</Link>
+        <Blog/>
         </div>
+        </>
+        
     );
 }
 
